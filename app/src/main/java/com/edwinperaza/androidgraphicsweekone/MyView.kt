@@ -75,7 +75,7 @@ class MyView(context: Context?) : View(context) {
 //        canvas?.drawCircle(185F, 356F, 250F, redPaint)
 
         // Draw a Polygon
-//        lines.close()
+//        lines.close() // This close the stroke but the polygon is still filled without it
         canvas?.drawPath(lines, redFillPaint)
         canvas?.drawPath(lines, blackPaint)
     }
