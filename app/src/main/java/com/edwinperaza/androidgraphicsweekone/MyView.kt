@@ -22,8 +22,8 @@ class MyView(context: Context?) : View(context) {
         greenPaint.style = Paint.Style.STROKE
 
         // Set the line stroke width to 5
-        redPaint.strokeWidth = 5f //set the line stroke width to 5
-        bluePaint.strokeWidth = 5f //set the line stroke width to 5
+        redPaint.strokeWidth = 5f
+        bluePaint.strokeWidth = 5f
 
         // Set the line color to Red/Blue/Green using several methods
         redPaint.color = Color.RED
